@@ -2,8 +2,7 @@
 
 Upload a resume (PDF), optionally paste a target job description, and get an
 ATS-style scan: match score, matched/missing keywords, section-by-section
-feedback, and top suggestions — powered by GPT-4o-mini.
-
+feedback, and top suggestions — powered by Google Gemini.
 ## Stack
 - Next.js 15 (App Router) + TypeScript
 - Tailwind CSS v4
@@ -58,3 +57,5 @@ since Gemini's compatibility layer speaks the same API shape.
 - Only extracted resume text (not the raw file) is sent to the model.
 - Provider-agnostic API call: swapping from Gemini to OpenAI (or back) is a
   three-line change because both speak the OpenAI chat-completions shape.
+
+
