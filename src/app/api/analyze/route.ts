@@ -3,14 +3,17 @@ import { GoogleGenAI } from "@google/genai";
 import { SYSTEM_PROMPT, buildUserPrompt } from "@/lib/prompt";
 import type { AnalysisResult } from "@/lib/types";
 
-import { getPath } from "pdf-parse/worker";
+import { CanvasFactory } from "pdf-parse/worker";
 import { PDFParse } from "pdf-parse";
 
 async function extractPdfText(file: File): Promise<string> {
   const arrayBuffer = await file.arrayBuffer();
   const buffer = new Uint8Array(arrayBuffer);
 
-  const parser = new PDFParse({ data: buffer });
+  const parser = new PDFParse({
+    data: buffer,
+    CanvasFactory,
+  });
 
   try {
     const result = await parser.getText();
