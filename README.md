@@ -6,7 +6,7 @@ feedback, and top suggestions — powered by Google Gemini.
 ## Stack
 - Next.js 15 (App Router) + TypeScript
 - Tailwind CSS v4
-- Google Gemini API (`gemini-2.5-flash`, via its OpenAI-compatible endpoint, JSON mode)
+- Google Gemini API (`gemini-3.5-flash`, via its OpenAI-compatible endpoint, JSON mode)
 - `pdf-parse` for text extraction
 
 ## Setup
