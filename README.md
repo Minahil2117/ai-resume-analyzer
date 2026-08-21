@@ -1,6 +1,6 @@
 # ResumeIQ — AI Resume Analyzer
 
-# Live Demo: https://ai-resume-analyzer-lovat-ten.vercel.app/
+## Live Demo: https://ai-resume-analyzer-lovat-ten.vercel.app/
 Upload a resume (PDF), optionally paste a target job description, and get an
 ATS-style scan: match score, matched/missing keywords, section-by-section
 feedback, and top suggestions — powered by Google Gemini.
