@@ -1,4 +1,4 @@
-# Resume Scan — AI Resume Analyzer
+# ResumeIQ — AI Resume Analyzer
 
 Upload a resume (PDF), optionally paste a target job description, and get an
 ATS-style scan: match score, matched/missing keywords, section-by-section
